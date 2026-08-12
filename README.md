@@ -35,6 +35,9 @@ SQL・Python・pandasを中心に学習しています。
 |---|---:|
 | Engineering | 272,492円 |
 | Finance | 257,688円 |
+| Sales | 250,765円 |
+| Marketing | 248,562円 |
+| Customer Support | 239,868円 |
 | Human Resources | 239,575円 |
 
 Engineeringは、全部署の中で最も平均TotalSalaryが高い結果となりました。
