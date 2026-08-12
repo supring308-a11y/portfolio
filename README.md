@@ -19,18 +19,13 @@ SQL・Python・pandasを中心に学習しています。
 - Word
 - PowerPoint
 
-# Employee Analytics｜Department Analysis
+---
+
+# Employee Analytics｜Department分析
 
 ## 概要
 
-架空の従業員データを用いて、部署（Department）と役職（JobTitle）による給与水準の違いを分析しました。
-
-本分析では、部署別・役職別の平均 `TotalSalary` を比較し、データ生成時に設定した給与ルールが想定どおり反映されているかを確認します。
-
-## 使用データ
-
-- 架空の従業員データ
-- 主な項目：Department、JobTitle、BaseSalary、PositionAllowance、TotalSalary
+架空の従業員データをPythonで作成し、部署（Department）と役職（JobTitle）による給与水準の違いを分析しました。
 
 ## 分析結果
 
@@ -51,35 +46,18 @@ Engineeringは、全部署の中で最も平均TotalSalaryが高い結果とな�
 - 全部署で、給与水準は **Manager ＞ Senior ＞ Staff** の順でした。
 - Engineeringは、Staff・Senior・Managerのすべての役職で最も高い給与水準でした。
 
-![Department・JobTitle別の平均TotalSalary](images/department_jobtitle_salary.png)
+![Department・JobTitle別の平均TotalSalary](images/department_jobtitle_average_total_salary.png)
 
 ## Insights（考察）
 
-### 1. Departmentによる給与水準の違い
+Engineeringの給与水準が最も高いことは、部署ごとに設定した基本給（BaseSalary）の違いがTotalSalaryに反映された結果と考えられます。
 
-Engineeringの平均TotalSalaryが最も高いことが確認できました。さらに、同じJobTitleで比較してもEngineeringの給与水準が高いため、役職構成だけではなく、Departmentごとの基本給水準が影響していると考えられます。
+また、すべての部署でManager ＞ Senior ＞ Staffの順に給与水準が高いことは、役職に応じた手当（PositionAllowance）の設定と一致しています。
 
-今回の架空データでは、EngineeringのBaseSalaryを他部署より高く設定しており、その設定がTotalSalaryの差に反映されています。
+以上より、Department別の基本給とJobTitle別の役職手当が、想定どおり給与差に反映されていることを確認できました。
 
-### 2. JobTitleによる給与水準の違い
+## 分析Notebook
 
-全部署でManager ＞ Senior ＞ Staffの順に給与水準が高いことが確認できました。
+分析に使用したPython Notebookは、こちらです。
 
-これは、JobTitleが上がるほどPositionAllowanceを高く設定した給与ルールと一致しています。
-
-### 3. データ生成ルールの妥当性
-
-Department別のBaseSalaryとJobTitle別のPositionAllowanceの設定が、TotalSalaryの差として想定どおり反映されていることを確認できました。
-
-したがって、本データは設定した給与ルールに整合した架空データであるといえます。
-
-## 分析ファイル
-
-- [詳細レポート](docs/department_analysis.md)
-- [分析Notebook](notebooks/department_analysis.ipynb)
-- [使用データ](data/employee_data.csv)
-
-## 今後追加予定
-
-- SQL分析
-- Power BIダッシュボード
+[employee_analysis.ipynb を開く](notebooks/employee_analysis.ipynb)
