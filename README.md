@@ -21,7 +21,7 @@ SQL・Python・pandasを中心に学習しています。
 
 ---
 
-# Employee Analytics｜Department分析
+# 部署と役職における給与水準の分析
 
 ## 概要
 
