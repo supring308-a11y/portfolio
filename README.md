@@ -61,7 +61,7 @@ Engineeringの給与水準が最も高いことは、部署ごとに設定した
 
 ## 分析Notebook
 
-分析に使用したPython Notebookは、こちらです。
+分析に使用したPython Notebookはこちらです。
 
 [employee_analysis.ipynb を開く](notebooks/employee_analysis.ipynb)
 
@@ -170,4 +170,5 @@ Sales Representativeについても、残業なしの離職率28.8%に対して�
 
 ## 分析Notebook
 
-分析に使用したPython Notebookは、こちらです。
+分析に使用したPython Notebookはこちらです。
+[attrition_analysis.ipynb を開く](notebooks/attrition_analysis.ipynb)
