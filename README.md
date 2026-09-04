@@ -85,6 +85,8 @@ Engineeringの給与水準が最も高いことは、部署ごとに設定した
 
 一方、50代の退職者は平均勤続年数が10.8年と長いものの、中央値は6年でした。最大値が40年であることから、一部の長期勤続者が平均値を押し上げている可能性があります。
 
+![年代別の離職率](images/attrition_rate_by_age_group.png)
+
 ### 2. 職位（JobLevel）
 
 職位別では、**JobLevel 1の離職率が26.3%と最も高くなりました**。
@@ -93,6 +95,8 @@ Engineeringの給与水準が最も高いことは、部署ごとに設定した
 
 また、JobLevel 1の退職者は平均勤続年数3.1年、中央値2年であり、比較的勤続年数が短いことが確認されました。
 
+![職位別の離職率](images/attrition_rate_by_joblevel.png)
+
 ### 3. 職種（JobRole）
 
 職種別では、**Sales Representativeの離職率が39.8%と最も高くなりました**。
@@ -100,6 +104,8 @@ Engineeringの給与水準が最も高いことは、部署ごとに設定した
 一方、退職者数ではLaboratory Technicianが62人と最も多く、Sales Representativeの33人を上回りました。このことから、離職率の高さと退職者数の多さは分けて考える必要があります。
 
 また、Sales Representativeは83人中76人、**約91.6%がJobLevel 1**で構成されていました。そのため、Sales Representativeの高い離職率については、職種だけでなくJobLevelの構成も考慮する必要があります。
+
+![職種別の離職率](images/attrition_rate_by_jobrole.png)
 
 ### 4. 残業/仕事満足度（OverTime / JobSatisfaction）
 
@@ -112,6 +118,8 @@ JobSatisfaction別では、満足度1の離職率が22.8%と最も高く、満�
 また、**20代 × JobLevel 1 × 残業あり**のグループでは、67人中45人が退職しており、離職率は__ __67.2%__ __でした。
 
 Sales Representativeについても、残業なしの離職率28.8%に対して、残業ありでは66.7%となっており、残業の有無によって約37.9ポイントの差が確認されました。
+
+![仕事満足度・残業有無別の離職率](images/attrition_rate_by_jobsatisfaction_overtime.png)
 
 ## 考察（Insights）
 
