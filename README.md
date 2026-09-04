@@ -51,7 +51,7 @@ Engineeringは、全部署の中で最も平均TotalSalaryが高い結果とな�
 
 ![Department・JobTitle別の平均TotalSalary](images/department_jobtitle_average_total_salary.png)
 
-## Insights（考察）
+## 考察（Insights）
 
 Engineeringの給与水準が最も高いことは、部署ごとに設定した基本給（BaseSalary）の違いがTotalSalaryに反映された結果と考えられます。
 
