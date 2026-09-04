@@ -65,6 +65,8 @@ Engineeringの給与水準が最も高いことは、部署ごとに設定した
 
 [employee_analysis.ipynb を開く](notebooks/employee_analysis.ipynb)
 
+---
+
 # 離職率の分析
 
 ### 1. 年齢/勤続年数（Age / YearsAtCompany）
@@ -143,3 +145,6 @@ Sales Representativeについても、残業なしの離職率28.8%に対して�
 
 そのため、若手・JobLevel 1の従業員に対して、定期的な1on1などを通じて業務負荷やキャリア上の悩みを把握できる仕組みを設け、問題を早期に発見できる体制を検討することが大切だと考えられます。
 
+## 分析Notebook
+
+分析に使用したPython Notebookは、こちらです。
