@@ -20,7 +20,7 @@ SQL・Python・pandasを中心に学習しています。
 - PowerPoint
 
 ---
-
+<!-- 
 # 部署と役職における給与水準の分析
 
 ## 概要
@@ -66,6 +66,7 @@ Engineeringの給与水準が最も高いことは、部署ごとに設定した
 [employee_analysis.ipynb を開く](notebooks/employee_analysis.ipynb)
 
 ---
+ -->
 
 # 離職率の分析
 
