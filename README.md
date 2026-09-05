@@ -131,7 +131,7 @@ Sales Representativeについても、残業なしの離職率28.8%に対して�
 
 ![仕事満足度・残業有無別の離職率](images/attrition_rate_by_jobsatisfaction_overtime.png)
 
-## 考察（Insights）
+## 考察
 
 ### 1. 若年層・JobLevel 1・残業ありの組み合わせに注目する必要がある
 
