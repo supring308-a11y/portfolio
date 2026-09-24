@@ -21,6 +21,17 @@ SQL・Python・pandasを中心に学習しています。
 
 ---
 
+## ポートフォリオ一覧
+
+| プロジェクト | 使用技術 | 内容 |
+|---|---|---|
+| [離職率の分析](#離職率の分析) | Python / pandas | IBM HRデータを使用した従業員の離職傾向分析 |
+| [Olist ECデータ分析](#olist-ecデータ分析) | Python / pandas | 売上・地域・商品カテゴリ・購買傾向の分析 |
+| [Olist ECデータ SQL分析（BigQuery）](#olist-ecデータ-sql分析bigquery) | BigQuery / SQL | SQLによる売上・商品カテゴリ・地域・顧客分析 |
+| [Olist EC売上分析ダッシュボード（Power BI）](#olist-ec売上分析ダッシュボードpower-bi) | Power BI / DAX | KPI・売上推移・地域・商品カテゴリを可視化 |
+
+---
+
 # 離職率の分析
 
 ## 概要
