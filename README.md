@@ -2,22 +2,18 @@
 
 ## 自己紹介
 
-約7年間、人事・労務業務に従事してきました。
-現在はデータアナリストへの転職を目指し、
-SQL・Python・pandasを中心に学習しています。
-
-データ分析を通じて、
-業務改善に貢献できるアナリストを目指しています。
+約7年間、人事・労務業務に従事してきました。現在はデータアナリストへの転職を目指し、  
+SQL・Python・Power BIを中心にデータ分析を学習しています。  
+公開データを用いた売上分析・顧客分析・離職傾向分析などに取り組み、分析結果を業務上の示唆につなげることを意識しています。  
+これまでの人事・労務経験とデータ分析スキルを活かし、業務改善に貢献できるアナリストを目指しています。
 
 ## スキル
 
 - SQL（GoogleSQL / BigQuery）
 - Python
 - pandas
-- Power BI
-- Excel
-- Word
-- PowerPoint
+- Power BI（Power Query / DAX）
+- Excel（VLOOKUP / SUMIF・SUMIFS / COUNTIF・COUNTIFS）
 
 ---
 
@@ -137,6 +133,8 @@ Sales Representativeについても、残業なしの離職率28.8%に対して�
 
 分析に使用したPython Notebookはこちらです。
 [attrition_analysis.ipynb を開く](notebooks/attrition_analysis.ipynb)
+
+[↑ ポートフォリオ一覧に戻る](#ポートフォリオ一覧)
 
 ---
 
@@ -275,6 +273,8 @@ SPは最大の売上市場でしたが、SPの注文数上位10カテゴリで�
 集計コード、保存済み実行結果、追加分析は以下のNotebookで確認できます。
 
 [Olist ECデータ分析のNotebookを開く](notebooks/olist_ecommerce_analysis.ipynb)
+
+[↑ ポートフォリオ一覧に戻る](#ポートフォリオ一覧)
 
 ---
 
@@ -432,6 +432,8 @@ SPの売上の高さには注文数の多さが大きく関係していると考
 | [`04_regional_analysis.sql`](sql/olist_bigquery/04_regional_analysis.sql) | 州別の売上、注文数、1注文あたり売上、売上構成比の分析 |
 | [`05_customer_analysis.sql`](sql/olist_bigquery/05_customer_analysis.sql) | 顧客の購入回数、リピーター率、顧客タイプ別売上の分析 |
 
+[↑ ポートフォリオ一覧に戻る](#ポートフォリオ一覧)
+
 ---
 
 # Olist EC売上分析ダッシュボード（Power BI）
@@ -462,3 +464,5 @@ KPIや各グラフが連動して変化する構成にしています。
 以下のREADMEにまとめています。
 
 [Power BIダッシュボードの詳細を見る](powerbi/README.md)
+
+[↑ ポートフォリオ一覧に戻る](#ポートフォリオ一覧)
