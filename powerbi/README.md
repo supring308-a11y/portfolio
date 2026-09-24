@@ -9,7 +9,7 @@ OlistのECデータを使用し、売上状況や傾向を把握するための�
 
 ## ダッシュボード
 
-![Olist EC売上分析ダッシュボード](../images/powerbi/olist_powerbi_dashboard.png)
+![Olist EC売上分析ダッシュボード](../images/olist_powerbi_dashboard.png)
 
 
 ## 分析目的
@@ -55,7 +55,7 @@ Kaggleで公開されている「Brazilian E-Commerce Public Dataset by Olist」
 また、月別の売上推移や期間による絞り込みを行うため、
 DateTableを作成し、注文データと接続しています。
 
-![データモデル](../images/powerbi/olist_powerbi_data_model.png)
+![データモデル](../images/olist_powerbi_data_model.png)
 
 主なリレーションシップ：
 
