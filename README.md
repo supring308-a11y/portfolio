@@ -420,3 +420,34 @@ SPの売上の高さには注文数の多さが大きく関係していると考
 | [`03_category_analysis.sql`](sql/olist_bigquery/03_category_analysis.sql) | 商品カテゴリ別売上、カテゴリ欠損の調査、売上上位カテゴリの分析 |
 | [`04_regional_analysis.sql`](sql/olist_bigquery/04_regional_analysis.sql) | 州別の売上、注文数、1注文あたり売上、売上構成比の分析 |
 | [`05_customer_analysis.sql`](sql/olist_bigquery/05_customer_analysis.sql) | 顧客の購入回数、リピーター率、顧客タイプ別売上の分析 |
+
+---
+
+# Olist EC売上分析ダッシュボード（Power BI）
+
+Python・BigQueryで分析したOlist ECデータを使用し、
+売上状況や傾向を視覚的に確認できるPower BIダッシュボードを作成しました。
+
+総売上・注文数・1注文あたり売上・顧客数のKPIに加え、
+月別売上推移、州別売上、商品カテゴリ別売上を可視化しています。
+
+また、期間スライサーを使用し、指定した期間に応じて
+KPIや各グラフが連動して変化する構成にしています。
+
+## ダッシュボード
+
+![Olist EC売上分析ダッシュボード](images/olist_powerbi_dashboard.png)
+
+### 使用ツール・技術
+
+- Power BI
+- Power Query
+- DAX
+- データモデリング
+
+### 詳細
+
+データモデル、KPIの定義、DAX、分析結果などの詳細は、
+以下のREADMEにまとめています。
+
+[Power BIダッシュボードの詳細を見る](powerbi/README.md)
